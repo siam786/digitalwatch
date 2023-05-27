@@ -30,7 +30,7 @@
 
 12. The code adds leading zeros to the minutes and seconds if their values are less than 10.
 
-12. The code adds leading zeros to the minutes and seconds if their values are less than 10 [3].
+12. The code adds leading zeros to the minutes and seconds if their values are less than 10.
 
 13. Finally, the formatted time is assigned to the `textContent` property of the selected "time" element to update the displayed time.
 
