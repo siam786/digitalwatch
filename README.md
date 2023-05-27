@@ -22,11 +22,13 @@
 
 8. Moving to the JavaScript code, there is a function named `updateClock()`. This function is responsible for updating the clock display.
 
-9. Inside the `updateClock()` function, the code uses the `document.querySelector()` method to select the HTML element with the ID "time" [1][2]. This element will be used to display the time.
+9. Inside the `updateClock()` function, the code uses the `document.querySelector()` method to select the HTML element with the ID "time". This element will be used to display the time.
 
-10. The function then creates a new `Date` object to get the current time [3]. It extracts the hours, minutes, and seconds from the `Date` object using appropriate methods.
+10. The function then creates a new `Date` object to get the current time. It extracts the hours, minutes, and seconds from the `Date` object using appropriate methods.
 
 11. Next, the code checks if the hours value is greater than 12. If true, it sets the `day_night` variable to "PM" and subtracts 12 from the hours to convert them to the 12-hour format.
+
+12. The code adds leading zeros to the minutes and seconds if their values are less than 10.
 
 12. The code adds leading zeros to the minutes and seconds if their values are less than 10 [3].
 
